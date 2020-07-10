@@ -1,0 +1,110 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Egg Catcher Game</title>
+</head>
+<body>
+    <div id="score" class="p-3">
+        <h5>Score = 0 </h5>
+    </div>
+    
+    <div id="live" class="p-3">
+        <h5>Live = 5 </h5>
+    </div>
+
+    <div id="home">
+        <h1 class="homeTitle p-5 text-center ">HAPPY EGGS</h1>
+        <button id="startButton" onclick="startHome()">PLAY</button>
+
+    </div>
+
+
+    <div id="end">
+        <h1 class="endTitle p-5 text-center ">GAME OVER</h1>
+        <button id="playAgain" onclick="playAgain()">PLAY AGAIN</button>
+
+    </div>
+
+
+    <div class="container gameContainer ">
+        <div class="row justify-content-around ">
+
+                <div id="chicken1" >
+                    <img src="images/Happy_hen.svg" id="chicken1-img" alt="">
+                    <img src="images/Happy_Egg.svg" id="egg1-img" alt="">
+                </div>
+            
+                <div id="chicken2" >
+                    <img src="images/Happy_hen.svg" id="chicken2-img" alt="">
+                    <img src="images/Happy_Egg.svg" id="egg2-img" alt="">
+                </div>
+            
+                <div id="chicken3" >
+                    <img src="images/Happy_hen.svg" id="chicken3-img" alt="">
+                    <img src="images/Happy_Egg.svg" id="egg3-img" alt="">
+                </div>
+
+
+        </div>
+
+            <div class="row justify-content-around algin-items-end ">
+
+                <div id="broken1" >
+                    <img src="images/Broken_Egg.svg" class="w-100" id="broken1-img" alt="">
+                </div>
+            
+                <div id="broken2" >
+                    <img src="images/Broken_Egg.svg" class="w-100" id="broken1-img" alt="">
+                </div>
+            
+                <div id="broken3" >
+                    <img src="images/Broken_Egg.svg" class="w-100" id="broken1-img" alt="">
+                </div>
+
+    </div>
+
+
+
+    <audio src="audio/score.mp3" id="scoreSound"></audio>
+
+    <audio src="audio/game over.mp3" id="gameOverSound"></audio>
+    <!-- <audio src="audio/happy chicken.mp3" id="happyChickenSound"></audio> -->
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <img src="images/Basket.svg" id="basket" alt="">
+    </div>
+
+
+
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

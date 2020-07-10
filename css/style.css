@@ -1,0 +1,125 @@
+body{
+    background-image: url(../images/Background_Night.svg);
+    background-size: cover   ;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#basket{
+    width: 120px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+/* -------------------------- */
+#chicken1 , #chicken2 , #chicken3{
+    position: relative;
+}
+#chicken1-img , #chicken2-img , #chicken3-img{
+    width: 150px;
+}
+#egg1-img , #egg2-img , #egg3-img{
+    position: absolute;
+    top: 900px;
+    left: 60px;
+    z-index: -1 ;
+}
+
+
+
+/* --------------- */
+#score{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+#live{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ 
+.gameContainer{
+    height: 100vh;
+}
+
+#broken1 , #broken2 , #broken3{
+    width: 10%;
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+
+#broken1{
+    
+    left: 20%;
+}
+#broken3{
+    right: 19%;
+}
+
+
+
+
+/* ---------------- */
+
+
+
+#home ,#end {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-radius: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F15E77;
+    background-color: #4C4660;
+    width: 600px;
+}
+
+
+.homeTitle , .endTitle{
+    font-weight: 900;
+    font-size: 50px;
+
+}
+#startButton , #playAgain {
+    border: 4px solid #fff;
+    border-radius: 100px;
+    background-color: #FF4571;
+    color: white;
+    width: 200px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 44px;
+    text-decoration: none;
+    position: relative;
+    top: 28px;
+    margin-left: 180px;
+}
+
+
+#end{
+    display: none;
+}
+
+
+
+#scoreSound , #gameOverSound{
+    display: none;
+}
